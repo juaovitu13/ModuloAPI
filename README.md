@@ -71,7 +71,7 @@ Para criar este projeto, eu segui os seguintes passos:
 * Criei uma classe de contexto do banco de dados, herdando de DbContext e adicionando uma propriedade DbSet para a minha entidade Contato.
 * Utilizei o comando "Add-Migration" do Entity Framework para criar as migrações iniciais e "Update-Database" para aplicar essas migrações no banco de dados.
 * Criei controllers e models para lidar com as operações CRUD, usando as classes do Entity Framework para interagir com o banco de dados.
-* Adicionei as rotas na classe Startup para que as operações possam ser acessadas através da API.
+* Adicionei as rotas na classe ContatoController para que as operações possam ser acessadas através da API.
 * Testei minhas operações usando ferramentas de teste de API, como o Postman.
 * Foi necessário fazer algumas configurações no arquivo appsettings.Development.json para realizar a conexão com o banco de dados, e também alguns ajustes na classe de contexto do banco de dados para garantir que as operações estão sendo realizadas corretamente. Além disso, algumas validações foram adicionadas nas classes de modelo para garantir que os dados enviados sejam válidos.
 
